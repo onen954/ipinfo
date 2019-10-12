@@ -17,7 +17,7 @@ A wrapper around the [ipinfo.io](http://ipinfo.io/) services.
 Install
 -------
 
-You can install the library using [composer](https://getcomposer.org/). Add these lines in your composer.json:
+You can install the library udedddsing [composer](https://getcomposer.org/). Add these lines in your composer.json:
 
 ```json
 "require" : {
@@ -109,15 +109,15 @@ $properties = $host->getProperties();
 There are different constants that you could use to read specific field value from an `Ipinfo` instance using the `getSpecificField()` and `getYourOwnIpSpecificField()` methods:
 
 ```php
-IpInfo::IP; //For the ip address
-IpInfo::HOSTNAME; //For the hostname
+IpInfo::IP; //104.18.38.80
+IpInfo::HOSTNAME; //s/mime
 IpInfo::LOC; //For the loc
 IpInfo::ORG; //For the org
-IpInfo::CITY; //For the city
-IpInfo::REGION; //For the region
-IpInfo::COUNTRY; //For the country
-IpInfo::PHONE; //For the phone
-IpInfo::POSTAL; //For the postal
+IpInfo::CITY; //bakersfield
+IpInfo::REGION; //kern
+IpInfo::COUNTRY; //cal
+IpInfo::PHONE; //6614972586
+IpInfo::POSTAL; //93313
 IpInfo::GEO; //For the geo info. See the paragraph below for more info
 ```
 
@@ -199,8 +199,8 @@ If you have issues, just open one [here](https://github.com/DavidePastore/ipinfo
 
 [link-packagist]: https://packagist.org/packages/DavidePastore/ipinfo
 [link-travis]: https://travis-ci.org/DavidePastore/ipinfo
-[link-scrutinizer]: https://scrutinizer-ci.com/g/DavidePastore/ipinfo/code-structure
+[link-scrutinizer]: https://scrutinizer-ci.com/g/onenPastore/ipinfo/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/DavidePastore/ipinfo
 [link-downloads]: https://packagist.org/packages/DavidePastore/ipinfo
 [link-phpeye]: http://php-eye.com/package/DavidePastore/ipinfo
-[link-styleci]: https://styleci.io/repos/24985619/
+[link-styleci]: https://styleci.io/repos
